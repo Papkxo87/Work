@@ -5,30 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style type="text/css">
-    @keyframes colobok {
+    @keyframes smile {
             from {
-                margin-left: 90%;
-                transform: rotate(0deg);
+                top: 0px;
+                left: 0px;
+                rotate: rotate(0deg);
             }
 
             to {
-                margin-left: 0%;
-                transform: rotate(calc(-360deg*2));
+                top: calc(100vh - 100px);
+                left: calc(100vw - 100px);
+                transform: rotate(calc(360deg*3));
             }
         }
 
         img {
-            animation: colobok 10s ease-in-out infinite alternate-reverse 0.5s;
+            height: 100px;
+            width: 100px;
+            animation: smile 10s ease-in-out infinite alternate-reverse 0.5s;
+            position: absolute;
         }
 
         body {
-            background-color: aqua;
+            background-color: rgb(27, 17, 223);
         }
     </style>
 </head>
 
 <body>
-    <img src="1.png">
+    <img src="smile.png">
 </body>
     
 </html>
