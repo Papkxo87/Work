@@ -6,6 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    <?php echo 'Hello World' ?>
+    <?php 
+    $a=100; 
+    $b=1000;
+    echo $a*$b.'<br>';
+    echo 5**2;
+    ?>
+    
 </body>
 </html>
