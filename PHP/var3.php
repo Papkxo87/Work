@@ -9,11 +9,20 @@
 
 <body>
     <?php
-    $a = 10;
-    if (true) {
+    /*$a = 9;
+    $b = 3;
+    if ($b > $a) {
         echo 'yes';
         echo '!';
-    }
+    } else {
+        echo 'no';
+        echo '!';
+    }*/
+
+    $x = 10;
+    $y = $x ** 2;
+    echo $y;
+
     ?>
 
 </body>
