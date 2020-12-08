@@ -10,12 +10,13 @@
 <body>
     <?php
     $a = 10;
-    $b = 100;
-    $c = 20;
-    $d = 9;
-    $e;
-    $ho = ($e = $a + 50) + 700;
-    echo $ho;
+    echo $a.'<br>';
+    $a+=2;
+    echo $a.'<br>';
+    $a-=2;
+    echo $a.'<br>';
+    $a.=9;
+    echo $a.'<br>';
     ?>
 
 </body>
