@@ -1,9 +1,12 @@
 <?php
-$rezult = $_POST["rezult"];
-$bal = 10;
-$rezult;
-if ($rezult >= $bal) {
-    echo "ВЫ ПОСТУПИЛИ В ВУЗ";
+$login = $_POST["login"];
+$password = $_POST["password"];
+
+$log='mul';
+$pass='mup';
+
+if ($login === $log && $password === $pass) {
+    echo "WELCOME TO WORLD";
 } else {
-    echo "ВЫ НЕ ПОСТУПИЛИ В ВУЗ";
+    echo "ВЫ ВВЕЛИ НЕВЕРНЫЙ ЛОГИН ИЛИ ПАРОЛЬ";
 }
