@@ -13,4 +13,13 @@ for ($i=1;  ; $i++) {
         break;
     }
     echo $i;
+}
+
+$i = 1;
+for (;;) {
+    if ($i > 10) {
+        break;
+    }
+    echo $i;
+    $i++;
 }*/
